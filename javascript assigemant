@@ -1,0 +1,39 @@
+<script>
+var a,b,c;
+a=10;
+b=10;
+c=a+b;
+console.log(c);
+<script>
+
+<script>
+    var fact=1,i;
+var num=prompt(num);
+
+for(i=1;i<=num;i++)
+    {
+        fact=fact*i;
+    }
+
+document.write(fact);
+</script>
+
+
+<script>
+var num
+prompt("Enter the number ");
+var sum=0,r,temp;
+while(num>0)
+    {
+        r=num%10;
+        sum=(sum*10) +r;
+        num=parseInt(num/10);
+    }
+if(temp == sum)
+{
+    console.log("palindrome");
+}
+else{
+    console.log("not palindrome");
+}
+</script>
